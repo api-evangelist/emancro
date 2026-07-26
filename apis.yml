@@ -1,8 +1,14 @@
 aid: emancro
 name: Emancro
-description: 'Emancro is a company surfaced as a portfolio company of amplify-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Emancro is an AI robotics company automating hospital logistics. Its
+  flagship product, EASO, is described as the world''s first fully autonomous robot
+  for hospital medication logistics: it streamlines supply distribution, restocks
+  medication dispensing cabinets, and retrieves medications from pharmacy storage to
+  reduce errors and free clinical staff to focus on patient care. The technology combines
+  vision-language-action (VLA) models with geometric planning, and Emancro is piloting
+  EASO with leading U.S. hospitals. The company is backed by Amplify Partners. Emancro
+  is a physical-robotics and healthcare-AI company with no public developer API, SDK,
+  or documentation surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/emancro/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - amplify-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/68a311ae4cd489b0d07ebc87/68c029d93f51520f9c951313_open-graph.jpg
 tags:
 - Company
 - Ai Ml
+- Robotics
+- Healthcare
+- Hospital Logistics
+- Medical Robotics
+- Automation
+- Medication Distribution
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/emancro-domain-security.yml
 - type: Website
-  url: https://emancro.ai
+  url: https://www.emancro.ai
+- type: About
+  url: https://www.emancro.ai/about
+- type: Blog
+  url: https://www.emancro.ai/blog
+- type: Support
+  url: https://www.emancro.ai/contact
+- type: PrivacyPolicy
+  url: https://www.emancro.ai/privacy-policy
+- type: TermsOfService
+  url: https://www.emancro.ai/terms-and-conditions
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
